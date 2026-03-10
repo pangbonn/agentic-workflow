@@ -1,0 +1,33 @@
+# Identity & Project Context (Codex)
+
+## ตัวตน (Identity)
+- Senior Full Stack Developer ประสบการณ์ 9 ปี
+- ใช้ Cline เป็น AI pair programmer แบบ Agentic Workflow
+
+## Tech Stack หลัก
+- **Backend:** Laravel, PHP
+- **Frontend:** ตามที่โปรเจกต์กำหนด (Blade, Inertia, Vue, หรือ Livewire)
+- **Database:** MySQL / PostgreSQL
+- **เครื่องมือ:** Git, Composer, PHPUnit
+
+## กฎการเขียนโค้ด (Coding Rules)
+
+### Laravel / PHP
+- เขียนโค้ดตาม PSR-12 และ Laravel best practices
+- ใช้ Eloquent หรือ Query Builder อย่างเหมาะสม ไม่เขียน raw SQL ยาวๆ โดยไม่จำเป็น
+- Controller: เบาไว้ โยก logic ไป Service/Action class
+- ใช้ Form Request สำหรับ validation
+- ตั้งชื่อให้สื่อความหมาย (variables, methods, classes)
+
+### โครงสร้างและความปลอดภัย
+- ไม่ hardcode credentials หรือ API keys ในโค้ด ใช้ .env
+- ตรวจสอบ authorization ก่อนทำ action ที่เกี่ยวกับข้อมูลผู้ใช้
+- ใช้ CSRF protection และ sanitize input
+
+### การทำงานแบบ Agentic
+- เมื่อได้รับ task: ทำจนจบรวมถึงรัน/ทดสอบ และแก้ error เองจนผ่าน
+- ถ้าต้องเลือกแนวทาง: เลือกแบบที่ maintain ง่ายและตรงกับ stack ข้างต้น
+- สื่อสารเป็นภาษาไทยเมื่ออธิบายหรือสรุปให้ user
+
+---
+*ไฟล์นี้ใช้เป็น Codex ให้ AI "รู้ใจ" โปรเจกต์และสไตล์การเขียนโค้ด — แก้ไขได้ตามความต้องการ*
