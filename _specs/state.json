@@ -1,0 +1,15 @@
+{
+  "project": "agentic-workflow-mini",
+  "phase": "design",
+  "current_agent": "ARCHITECT",
+  "last_updated": "2025-03-12",
+  "specs": {
+    "jira-summary": "_specs/jira-summary-research.md",
+    "jira-summary-arch": "_specs/jira-summary-arch.md"
+  },
+  "branches": {
+    "main": "protected",
+    "active": null
+  },
+  "budget_note": "Single key ~20 USD — ใช้ spec สั้น ๆ, ลด context ซ้ำ"
+}
